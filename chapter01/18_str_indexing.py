@@ -60,4 +60,3 @@ print(f"Result = {int(str_num[0]) + int(str_num[-1])}")
 
 
 
-
