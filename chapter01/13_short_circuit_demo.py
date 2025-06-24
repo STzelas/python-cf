@@ -27,4 +27,4 @@ print("Valid email:", valid_email) # Valid email: True
 if valid_email:
   print(f"Hello {valid_user}, your email is: {valid_email}")
 else:
-  print(f"Hello {valid_user}, please prodivde you email.")
+  print(f"Hello {valid_user}, please prodivde you email.") 
