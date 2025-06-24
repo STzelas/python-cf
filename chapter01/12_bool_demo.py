@@ -14,4 +14,4 @@ print(result)
  # integer οπότε το False αντιστοιχεί στο 0,
  # και το True στο 1
 print("True + True =", True + True) # 2
-print(True * 5) # 5
+print(True * 5) # 5 
