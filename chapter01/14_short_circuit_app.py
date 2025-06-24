@@ -13,5 +13,5 @@ else:
 # Αν υπάρχει email εντός τις παρένθεσης έχουμε truthy && data οπότε εμφανίζει τα data
 # Αν δεν υπάρχει τότε είναι falsy και πάει στην επόμενη παράσταση (ενα str) το 
 # οποιο και επιστρέφει
-print(f"Hello {valid_user}, " + ((email and f"your email is: {email}") or ("please provide your email")))
+print(f"Hello {valid_user}, " + ((email and f"your email is: {email}") or ("please provide your email"))) 
 
