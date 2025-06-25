@@ -49,4 +49,5 @@ else:
 
 # challenge
 print("One line example")
-print(f"{fruit_to_check} is {'in' if  fruit_to_check in fruits else 'not in'} the list") # σαν να μιλάς κανονικά - pythonian προσέγγιση
+# Σαν να μιλάς κανονικά - pythonian προσέγγιση
+print(f"{fruit_to_check} is {'in' if  fruit_to_check in fruits else 'not in'} the list") 
