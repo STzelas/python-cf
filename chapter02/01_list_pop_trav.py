@@ -15,3 +15,5 @@ print()
 # αλλα δεν καταλαβαίνει αντιστοίχηση με αυτή την έννοια
 for index, value in enumerate(ages, 1):  
   print(f"Index: {index}, Value: {value}")
+
+print("-" * 20)
