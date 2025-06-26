@@ -1,5 +1,5 @@
 
-def say_hello(name:str = "Coding Factory"):  # def = definition έτσι δηλώνουμε methods
+def say_hello(name:str = "Coding Factory"):  # def = definition έτσι δηλώνουμε methods | το str δεν είναι τύπος. είναι annotation
   """
   Print a greeting message.
 
@@ -16,7 +16,7 @@ def main():
   say_hello("Panos")
   
   # print(say_hello.__doc__) # εκτυπώνει το documentation της συναρτησης
-  help(say_hello)     # εκτυπώνει το documentation της συναρτησης
+  help(say_hello)            # εκτυπώνει το documentation της συναρτησης
   pass
 
 # Εκτυπώθηκε Hello επειδή κάλεσα main που κάλεσε την say_hello
