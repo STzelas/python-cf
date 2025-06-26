@@ -49,5 +49,5 @@ else:
 
 # challenge
 print("One line example")
-# Σαν να μιλάς κανονικά - pythonian προσέγγιση
+# Σαν να μιλάς κανονικά | Τριαδικός τελεστής βάζει if else - pythonian προσέγγιση
 print(f"{fruit_to_check} is {'in' if  fruit_to_check in fruits else 'not in'} the list") 
