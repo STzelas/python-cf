@@ -1,6 +1,17 @@
 from typing import List, Tuple, Union
 
 def calculate_grade(assignment_scores: List[Union[int, float]], mid_score: Union[int, float], final_score: Union[int, float]) -> Tuple[float, str]:
+  """
+  Caclulates the grade of a student based on assigment score, mid score and final score.
+
+  Args:
+    assignment_scores (List[Union[int, float]]): The score from the assignments.
+    mid_score (Union[int, float]): The score from the mid season.
+    final_score (Union[int, float]): The final score of the semester
+
+  Returns:
+    Grades (Tuple[float, str]): The grade based of the scores
+  """
   
   def weighted_average() -> float:
     assignment_score = sum(assignment_scores) / len(assignment_scores)
