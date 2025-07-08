@@ -25,8 +25,11 @@ def sum_function(n):
 my_sum_func = timer_decorator(sum_function)
 print(my_sum_func(1_000_000))
 
-# Decorators
-@timer_decorator # decorate με επιπλέον functionality αυτής της function
+# Decorators 
+# decorate προσθέτει στην function
+# επιπλέον functionality αυτής του decorator
+# μπορούν να μπουν και παραπάνω απο 1ς decorator
+@timer_decorator 
 def average_function(n):
   if n == 0:
     return 0
