@@ -22,8 +22,8 @@ def timer_decorator(func):
 def sum_function(n):
   return sum(range(n))
 
-my_sum_func = timer_decorator(sum_function)
-print(my_sum_func(1_000_000))
+sum_function = timer_decorator(sum_function)
+print(sum_function(1_000_000))
 
 # Decorators 
 # decorate προσθέτει στην function
