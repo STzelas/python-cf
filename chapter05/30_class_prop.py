@@ -5,7 +5,7 @@ class Person:
   # Getter
   def get_name(self):
     if not hasattr(self, "_name"):
-      return "Name attribute has deleted"
+      return "Name attribute has been deleted"
     print("Getting name...")
     return self._name
   
@@ -29,6 +29,11 @@ def main():
   print(p.name)
   p.name = "John"
   print(p.name)
+
+  del p.name
+  print(p.name)
+
+  
 
 if __name__ == "__main__":
   main()
