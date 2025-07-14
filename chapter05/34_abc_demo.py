@@ -46,7 +46,7 @@ class StudentImpl(AbstractStudentDAO):
     else:
       print(f"Student with {student_id} not found")
 
-  def getOne(self, student_id):
+  def get_one(self, student_id):
     return self.students.get(student_id, None)
   
   # ABCInventory μπορεί επίσης
@@ -92,7 +92,19 @@ def main():
   st = student_d.get_one(1)
 
   student_d.delete(2)
+  inventory = Inventory()
 
+  # initialize items
+  item1 = Item("PC")
+  item2 = Item("Mobile Phone")
+
+  # Adding items
+  inventory.add_item(item1)
+  inventory.add_item(item2)
+
+  # Removing items that do not exist
+  inventory.remove_item("iPad")   # Item not found: iPad
+  inventory.remove_item("iPhone") # Item not found: iPhone
 
 if __name__ == "__main__":
   main()
